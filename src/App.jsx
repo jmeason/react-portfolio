@@ -1,10 +1,10 @@
-import './App.css';
-import BucketList from './components/BucketList';
+import Footer from "./components/Footer";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div> <PortfolioContainer />;
+      <Footer />
     </div>
   );
 }
